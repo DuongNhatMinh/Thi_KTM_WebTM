@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TrangChu.master.cs" Inherits="BaiThiASP.TrangChu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="STYLE.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header></header>
+    <form id="form1" runat="server">
+        <div id="menu">
+               <ul>
+                   <li><a id="A1" runat="server" href="Trang%20Chủ.aspx">Trang Chủ</a></li>
+                   <li><a id="A2" runat="server" href="Tin%20Tức.aspx">Tin Tức</a></li>
+                   <li><a id="A3" runat="server" href="Tác%20Giả.aspx">Tác Giả</a></li>
+                   <li><a id="A4" runat="server" href="Chủ%20Đề.aspx">Chủ Đề</a></li>
+               </ul>
+            <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>Copyright Nhật Minh © 2020</footer>
+    </form>
+</body>
+</html>

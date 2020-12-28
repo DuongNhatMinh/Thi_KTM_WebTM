@@ -1,0 +1,42 @@
+﻿h1 {
+    color: darkred;
+    margin-left:500PX;
+}
+
+header {
+    background-image: url(IMG/unnamed.jpg);
+    background-repeat: no-repeat;
+    height: 150px;
+    margin-left:530px;
+}
+#menu ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+    #menu a:hover {
+        background: #F1F1F1;
+        color: #333;
+    }
+ul{
+    color: cyan;
+}
+footer {
+    margin-left: 660PX;
+}
